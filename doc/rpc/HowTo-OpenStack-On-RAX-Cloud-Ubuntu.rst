@@ -310,7 +310,7 @@ OpenStack controller node (controller)
 
        # compute
        10.1.11.21 compute
-       
+
        # block
        10.1.11.31 block
 
@@ -341,7 +341,7 @@ OpenStack controller node (controller)
        apt-get update && apt-get dist-upgrade
 
 #. Reboot the node.
-   
+
    .. code-block:: console
 
       # reboot
@@ -402,7 +402,7 @@ OpenStack compute node (compute)
 
       # compute
       10.1.11.21 compute
-      
+
       # block
       10.1.11.31 block
 
@@ -490,7 +490,7 @@ OpenStack block storage node (block)
 
       # compute
       10.1.11.21 compute
-      
+ 
       #block
       10.1.11.31 block
 
