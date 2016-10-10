@@ -490,7 +490,7 @@ OpenStack block storage node (block)
 
       # compute
       10.1.11.21 compute
- 
+
       #block
       10.1.11.31 block
 
