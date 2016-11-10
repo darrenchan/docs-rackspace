@@ -177,10 +177,10 @@ management, and code reviews.
 To learn how to contribute to API documentation, see the following
 instructions:
 
-* GitHub workflow found in ``GITHUBING.rst`` in the root directory of the product
-  repo
-* Contributor guidelines found in ``CONTRIBUTING.rst`` in the root director of the
+* GitHub workflow found in ``GITHUBING.rst`` in the root directory of the
   product repo
+* Contributor guidelines found in ``CONTRIBUTING.rst`` in the root director of
+  the product repo
 
 For example, see the following documents in the Cloud Servers repo:
 
