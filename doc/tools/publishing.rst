@@ -257,7 +257,7 @@ Review Strider build information
 Use the following information to view Strider build information:
 
 - Review a list of Strider build jobs for documentation projects at
-  https:\\build.developer.rackspace.com.
+  https://build.developer.rackspace.com.
 
   If you get a 404 error, log in with your
   GitHub ID. If you still can't view the builds, open an
