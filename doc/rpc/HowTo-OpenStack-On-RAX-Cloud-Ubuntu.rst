@@ -568,8 +568,8 @@ Create a block storage volume (block1)
 Install and configure OpenStack services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Use the `Newton Installation Tutorials and Guides
-<http://docs.openstack.org/newton/install-guide-ubuntu/>`_ with
+Use the draft `Installation Tutorials and Guides
+<http://docs.openstack.org/draft/install-guide-ubuntu/>`_ with
 the following changes:
 
 - Configuring the basic environment on all nodes:
