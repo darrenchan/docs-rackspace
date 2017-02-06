@@ -353,8 +353,10 @@ OpenStack compute node (compute)
 
    - OS: Ubuntu 16.04 (Xenial Xerus) PVHVM
    - Flavor:
+
      - 3.75 GB Compute v1 (supports several CirrOS instances)
      - 7.5 GB Compute v1 (supports a couple of Ubuntu/Fedora instances)
+
    - Network: net-osmgmt1
 
 #. Access the node from the network services node (network-services) using the
@@ -371,6 +373,8 @@ OpenStack compute node (compute)
       configuration.
 
 #. Add the *net-osint1* network to the node.
+
+#. Add the *nnet-osext1* network to the node.
 
 #. Configure network interfaces.
 
@@ -410,7 +414,7 @@ OpenStack compute node (compute)
 
    .. code-block:: ini
 
-      # hst-os1ctl1
+      # controller
       10.1.11.11 controller
 
       # compute
@@ -455,9 +459,9 @@ OpenStack block storage node (block)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Create a cloud server, removing all networks except the
-   **16.04 (Xenial Xerus) PVHVM** network:
+   **net-osmgmt1** network:
 
-   - OS: CentOS 7 (PVHVM)
+   - OS: 16.04 (Xenial Xerus) PVHVM
    - 4 GB General Purpose v1
    - Network: net-osmgmt1
 
@@ -494,7 +498,7 @@ OpenStack block storage node (block)
           address 10.1.12.41
           netmask 255.255.255.0
 
-#. Edit the */etc/hosts* file:
+#. Edit the `/etc/hosts` file:
 
    .. code-block:: ini
 
@@ -539,7 +543,7 @@ OpenStack block storage node (block)
    .. code-block:: console
 
       # apt-get install software-properties-common
-      # add-apt-repository cloud-archive:newton-proposed
+      # add-apt-repository cloud-archive:ocata-proposed
 
 #. Reboot the node:
 
@@ -547,8 +551,8 @@ OpenStack block storage node (block)
 
       # reboot
 
-Create block storage volume (block1)
-------------------------------------
+Create a block storage volume (block1)
+--------------------------------------
 
 #. In the Rackspace Cloud Control Panel, select
    :guilabel:`Block Storage Volumes` in the :guilabel:`Storage` tab, and
