@@ -404,8 +404,7 @@ If you orchestrated server creation, skip to :ref:`configure network interfaces
 
 #. In the cloud control panel, add the **internal** network to the node.
 
-#. In the cloud control panel, add the **external** network to the
-  node.
+#. In the cloud control panel, add the **external** network to the node.
 
    .. note::
 
